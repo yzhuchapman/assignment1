@@ -120,7 +120,7 @@ int main(int argc, char** argv){
   << "\nGA probability" << gaprob << "\nGT probability" << gtprob << "\nGC probability" << gcprob << "\nGG probability" << ggprob << "\n";
   //generate new DNA strings
   string output="";
-  for (int i=0;i<100;++i){
+  for (int i=0;i<1000;++i){
     float a = ((float) rand() / (RAND_MAX));
     float b = ((float) rand() / (RAND_MAX));
     float c = sqrt(-2*log (a))*cos(2*M_PI*b);
